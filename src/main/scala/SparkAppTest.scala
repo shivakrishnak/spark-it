@@ -9,6 +9,6 @@ object SparkAppTest {
     println("APP Name :" + spark.sparkContext.appName);
     println("Deploy Mode :" + spark.sparkContext.deployMode);
     println("Master :" + spark.sparkContext.master);
-    println("ApplicationId " +spark.sparkContext.applicationId)
+    println("ApplicationId :" +spark.sparkContext.applicationId)
   }
 }
